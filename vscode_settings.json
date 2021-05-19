@@ -1,0 +1,14 @@
+{
+    "files.autoSave": "afterDelay",
+    "go.useLanguageServer": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "go.toolsManagement.autoUpdate": true,
+    "workbench.colorTheme": "Andromeda Bordered"
+}
