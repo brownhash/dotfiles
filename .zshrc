@@ -19,7 +19,7 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 plugins=(zsh-autosuggestions)
-source /Users/harshitsharma/.oh-my-zsh/oh-my-zsh.sh
+source "/Users/${username}/.oh-my-zsh/oh-my-zsh.sh"
 
 ssh_location="/Users/${username}/.ssh"
 
