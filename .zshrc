@@ -27,14 +27,14 @@ ssh_location="/Users/${username}/.ssh"
 alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 #  git alias
 alias gs='git status'
-alias gp='git push'
+alias gpush='git push'
 alias gcm='git commit -m'
 alias gaa='git add -A'
 alias ga='git add'
-alias gpl='git pull'
-alias gst='git stash'
-alias grs='git reset --staged'
-alias grh='git reset HEAD~'
+alias gpull='git pull'
+alias gstash='git stash'
+alias gremove='git reset --staged'
+alias greset='git reset HEAD~'
 # SSH alias
 alias devssh="=ssh -i ${ssh_location}/dev.pem"
 alias stagssh="ssh -i ${ssh_location}/staging.pem"
