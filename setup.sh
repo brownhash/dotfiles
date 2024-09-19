@@ -15,6 +15,10 @@ echo 'Setting up Zsh Autosuggestions'
 git clone https://github.com/zsh-users/zsh-autosuggestions /Users/${username}/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 echo 'For more visit - https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md'
 
+# Zsh Syntax highlighting
+brew install zsh-syntax-highlighting
+echo "source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+
 # Powerline fonts
 git clone https://github.com/powerline/fonts.git --depth=1
 cd fonts
