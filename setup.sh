@@ -14,3 +14,10 @@ echo 'For more visit - https://github.com/ohmyzsh/ohmyzsh'
 echo 'Setting up Zsh Autosuggestions'
 git clone https://github.com/zsh-users/zsh-autosuggestions /Users/${username}/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 echo 'For more visit - https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md'
+
+# Powerline fonts
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts
+./install.sh
+cd ..
+rm -rf fonts
