@@ -25,3 +25,7 @@ cd fonts
 ./install.sh
 cd ..
 rm -rf fonts
+
+# Powerlevel10K
+echo 'Setting up Powerlevel10K theme'
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
