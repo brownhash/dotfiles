@@ -17,7 +17,8 @@ brew install zsh-autosuggestions
 
 # Zsh Syntax highlighting
 brew install zsh-syntax-highlighting
-echo "source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+# To activate the syntax highlighting, add the following at the end of your .zshrc:
+# source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Powerline fonts
 git clone https://github.com/powerline/fonts.git --depth=1
