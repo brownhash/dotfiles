@@ -11,8 +11,9 @@ echo 'For more visit - https://github.com/ohmyzsh/ohmyzsh'
 
 # Auto suggestions
 echo 'Setting up Zsh Autosuggestions'
-git clone https://github.com/zsh-users/zsh-autosuggestions /Users/${username}/.oh-my-zsh/custom/plugins/zsh-autosuggestions
-echo 'For more visit - https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md'
+brew install zsh-autosuggestions
+# To activate the autosuggestions, add the following at the end of your .zshrc:
+# source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Zsh Syntax highlighting
 brew install zsh-syntax-highlighting
